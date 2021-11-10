@@ -1,0 +1,85 @@
+.header{
+  background-color: #FCF3A6;
+  color: #FF00FF;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 10px;
+  font-family: "Lucida Handwriting",cursive;
+  border-bottom: 2px solid #270A11;
+  font-size: large;
+}
+.search-bar{
+  margin-top: 5pt;
+  margin-left:20pt;
+  padding: 10pt;
+}
+.search-input{
+height:20px;
+width: 400px;
+margin-right: 5pt;
+background: whitesmoke;
+border-radius: 5pt;
+border: 1px solid black;
+}
+.search-button{
+  height:20px;
+  width: 200px;
+  margin-right: 5pt;
+  color: #FCF3A6 ;
+  background: #270A11;
+  border-radius: 20pt;
+  border: 1px solid black;
+  }
+.Recipe-item{
+  background-color: #2F2A45;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 20pt;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-right: 20pt;
+  text-size-adjust: 20pt;
+}
+.Recipe-title{
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+.Recipe-ingredients-title{
+  text-align: left;
+  text-transform: uppercase;
+}
+.Ingredients-List{
+  text-indent: 10px;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 1.0;
+  margin-bottom: 20px;
+}
+.Recipe-image{
+  border:0.5px solid white ;
+  border-radius: 5pt;
+  margin-left: -25px;
+  max-height: fit-content;
+  max-width: min-content;
+  box-shadow:5px 5px 2.5px black;
+}
+.Recipe-image:hover{
+transform: scale(1.25);
+}
+.footer{
+  position: sticky;
+  background-color: #FCF3A6;
+  color: #270A11;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 10px;
+  font-family: "Lucida Handwriting",cursive;
+  border-top: 2px solid #270A11;
+  align-items:flex-end
+}
+
+
+
